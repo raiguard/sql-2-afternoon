@@ -40,7 +40,7 @@
 -- select t.name, g.name, a.title, ar.name from track t
 -- join genre g on t.genre_id = g.genre_id
 -- join album a on t.album_id = a.album_id
--- join artist ar on t.composer = ar.name
+-- join artist ar on a.artist_id = ar.artist_id
 -- join playlist_track pt on t.track_id = pt.track_id
 -- join playlist p on pt.playlist_id = p.playlist_id
 -- where p.name = 'Music'
